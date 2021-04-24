@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+
+html,body{
+    margin:0px;
+    padding:0px;
+    background-color: #fdf4ee; 
+     
+}
+
+#icon{
+width:60px;
+}
+
+.header-container{
+    background:pink;
+    height:70px;
+}
+
+h1{
+    color: rgb(83, 79, 79);
+    font-family: 'Pinyon Script', cursive;
+    font-size:60px;
+    position:fixed; 
+    left:0;
+    margin-top:0px;
+    margin-left: 18px;
+    
+   
+   
+}
+
+nav{
+    display:flex;
+    flex-direction:row;
+}
+nav li:hover{
+	cursor: pointer;
+}
+
+
+/*#nav-bar {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: white;
+    height:90px;
+}
+/*div>ul {
+    display: flex;
+    flex-direction: row;
+    text-decoration: inherit;
+
+}*/
+
+/*div>ul>li {
+    list-style: none;
+}*/
+/*div>ul>li>a {
+    display: inline-block;
+    padding: 7px 20px 5px;
+    text-decoration: solid;
+    font-size: 1.5em;
+    font-family: 'Zen Dots', cursive;
+    color:pink;
+    cursor: pointer;
+}*/
+
+
+#homeImg{
+    margin-top:40px;
+    width:80%;
+    height:550px;
+    margin-left:90px;
+}
+
+
+nav ul{
+	list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    color:white;
+    font-family: 'Zen Dots', cursive;
+    font-size: 20px;
+   
+    
+}
+
+nav li{
+    margin:5px;
+}
+
+nav{
+    display:flex;
+    justify-content: flex-end;
+    margin-right:20px;
+    
+}
+
+  
+  /*nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background: var(--dark-blue);
+  }
+li {
+  font-family: var(--poppins);
+  list-style: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+
+  
+  
