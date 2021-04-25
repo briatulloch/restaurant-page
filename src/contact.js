@@ -4,7 +4,7 @@ function displayContact(){
 
     const email=document.createElement('div');
     const emailTitle=document.createElement('h3');
-    emailTitle.textContent='tastytreats@gmail.com';
+    emailTitle.textContent='tastytreats@email.com';
     email.appendChild(emailTitle);
 
     contactContent.appendChild(email);
