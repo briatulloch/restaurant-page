@@ -39,37 +39,6 @@ nav li:hover{
 	cursor: pointer;
 }
 
-
-/*#nav-bar {
-    display: flex;
-    flex-direction: row;
-    margin: 0;
-    justify-content: flex-end;
-    align-items: center;
-    background-color: white;
-    height:90px;
-}
-/*div>ul {
-    display: flex;
-    flex-direction: row;
-    text-decoration: inherit;
-
-}*/
-
-/*div>ul>li {
-    list-style: none;
-}*/
-/*div>ul>li>a {
-    display: inline-block;
-    padding: 7px 20px 5px;
-    text-decoration: solid;
-    font-size: 1.5em;
-    font-family: 'Zen Dots', cursive;
-    color:pink;
-    cursor: pointer;
-}*/
-
-
 #homeImg{
     margin-top:40px;
     width:80%;
@@ -77,17 +46,13 @@ nav li:hover{
     margin-left:90px;
 }
 
-
 nav ul{
 	list-style: none;
     display: flex;
     flex-direction:row;
-    justify-content: flex-end;
     color:white;
     font-family: 'Zen Dots', cursive;
-    font-size: 20px;
-   
-    
+    font-size: 20px;   
 }
 
 nav li{
@@ -101,22 +66,99 @@ nav{
     
 }
 
+
+
+h3{
+    color:rgb(155, 1, 1);
+    font-family: 'Zen Dots', cursive;
+ 
+    /*margin-top:-37px;*/
+    font-size:18px;
+    margin-left:120px;
+    
+
+}
+
+#redvelvet{
+    height: 240px;
+    width: 380px;
+    margin-left:120px;
   
-  /*nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    min-height: 8vh;
-    background: var(--dark-blue);
-  }
-li {
-  font-family: var(--poppins);
-  list-style: none;
-  font-weight: bold;
-  transition: 0.3s ease;
-  cursor: pointer;
-  display: flex;
-  flex-direction: row;
+ 
+
+}
+
+h4{
+    color:rgb(155, 1, 1);
+    font-family: 'Zen Dots', cursive;
+    /*margin-left:651px;*/
+   
+    
+    /*margin-right:40px;*/
+   
+    font-size:18px;
+    margin-top:20px;
+  
+
+}
+
+h5{
+    color:rgb(155, 1, 1);
+    font-family: 'Zen Dots', cursive;
+    font-size:18px;
+    margin-left:120px;
+    margin-top:8px;
+}
+
+h6{
+    color:rgb(155, 1, 1);
+    font-family: 'Zen Dots', cursive;
+    font-size:18px;
+    margin-top:7px;
+    
+   
+    
+}
+
+#lemonrasp{
+    height: 240px;
+    width: 380px;
+    margin-top:-9px; 
+ 
+}
+ 
+#oreo{
+    height: 240px;
+    width: 380px;  
+    margin-left:120px;  
+    margin-top:-7px; 
+   
+}
+
+#smores{
+    height: 240px;
+    width: 380px;
+    margin-top:-18px;
+  
+    
+}
+.menu-content{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+
+h2{
+color:rgb(252, 169, 183);
+font-size:60px;
+margin-top:5px;
+margin-bottom:1px;
+font-size:55px;
+display:flex;
+justify-content:center;
+font-family: 'Pinyon Script', cursive;
 }
 
 
