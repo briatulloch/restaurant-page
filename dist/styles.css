@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+/*import fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100&display=swap');
 
 html,body{
     margin:0px;
     padding:0px;
-    background-color: #fdf4ee; 
-     
+    background-color: #fdf4ee;     
 }
 
 #icon{
@@ -25,25 +25,17 @@ h1{
     position:fixed; 
     left:0;
     margin-top:0px;
-    margin-left: 18px;
-    
-   
-   
+    margin-left: 18px; 
+    /* ensures header doesn't move while scrolling*/
+    position:absolute;
 }
+
 
 nav{
     display:flex;
-    flex-direction:row;
-}
-nav li:hover{
-	cursor: pointer;
-}
-
-#homeImg{
-    margin-top:40px;
-    width:80%;
-    height:550px;
-    margin-left:90px;
+    justify-content: flex-end;
+    margin-right:20px;
+    
 }
 
 nav ul{
@@ -58,48 +50,53 @@ nav ul{
 nav li{
     margin:5px;
 }
-
-nav{
-    display:flex;
-    justify-content: flex-end;
-    margin-right:20px;
-    
+nav li:hover{
+	cursor: pointer;
+}
+#homeImg{
+    margin-top:40px;
+    width:80%;
+    height:550px;
+    margin-left:90px;
 }
 
-
+h2{
+    color:rgb(252, 169, 183);
+    font-size:60px;
+    margin-top:5px;
+    margin-bottom:1px;
+    font-size:55px;
+    display:flex;
+    justify-content:center;
+    font-family: 'Pinyon Script', cursive;
+    }
 
 h3{
     color:rgb(155, 1, 1);
     font-family: 'Zen Dots', cursive;
- 
-    /*margin-top:-37px;*/
     font-size:18px;
     margin-left:120px;
-    
-
 }
 
 #redvelvet{
     height: 240px;
     width: 380px;
     margin-left:120px;
-  
- 
-
 }
 
 h4{
     color:rgb(155, 1, 1);
     font-family: 'Zen Dots', cursive;
-    /*margin-left:651px;*/
-   
-    
-    /*margin-right:40px;*/
-   
     font-size:18px;
     margin-top:20px;
   
+}
 
+#lemonrasp{
+    height: 240px;
+    width: 380px;
+    margin-top:-9px; 
+ 
 }
 
 h5{
@@ -109,40 +106,29 @@ h5{
     margin-left:120px;
     margin-top:8px;
 }
-
-h6{
-    color:rgb(155, 1, 1);
-    font-family: 'Zen Dots', cursive;
-    font-size:18px;
-    margin-top:7px;
-    
-   
-    
-}
-
-#lemonrasp{
-    height: 240px;
-    width: 380px;
-    margin-top:-9px; 
- 
-}
  
 #oreo{
     height: 240px;
     width: 380px;  
     margin-left:120px;  
-    margin-top:-7px; 
-   
+    margin-top:-7px;   
+}
+
+h6{
+    color:rgb(155, 1, 1);
+    font-family: 'Zen Dots', cursive;
+    font-size:18px;
+    margin-top:7px;     
 }
 
 #smores{
     height: 240px;
     width: 380px;
-    margin-top:-18px;
-  
-    
+    margin-top:-18px;    
 }
+
 .menu-content{
+    /*make menu images display 2 in a row*/
     display: grid;
     grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr 1fr;
@@ -150,16 +136,45 @@ h6{
 }
 
 
-h2{
-color:rgb(252, 169, 183);
-font-size:60px;
-margin-top:5px;
-margin-bottom:1px;
-font-size:55px;
-display:flex;
-justify-content:center;
-font-family: 'Pinyon Script', cursive;
+#addressDiv{
+    width:260px;
+    /* align address beside icon*/
+    display:flex;
+    align-items:center;
+    margin-bottom: -15px;
 }
+
+#map-icon{
+    width:45px;
+    height:45px;
+    float:left;
+}
+
+#address{
+    font-size:30px;
+    font-family: 'Antonio', sans-serif;
+    float:right;
+    font-weight: bold;
+    color: rgb(83, 79, 79);
+}
+#map{
+    height:350px;
+   
+}
+   
+.social-media-link{
+    display:inline-block;
+    font-size:45px;
+    margin-top:17px;
+   
+}
+
+.social-media-link a {
+    color: rgb(247, 160, 175);
+    margin-left: 25px;
+}
+
+
 
 
   

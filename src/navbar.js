@@ -1,4 +1,4 @@
-function header(){
+function createHeader(){
 
 	const headerDiv = document.createElement('div');
 	headerDiv.classList.add('header-container');
@@ -47,4 +47,4 @@ function header(){
 	
 }
 
-export default header
+export default createHeader
